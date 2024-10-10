@@ -1,3 +1,74 @@
+/* GERAL */
+body {
+    padding: 50px;
+    margin: 0;
+    padding-top: 0;
+    border-radius: 15px;
+}
+
+#titlepai {
+    text-align: center;
+}
+
+
+/* PARTE ROSA - LARI*/
+#caixarosa {
+    border-radius: 15px;
+}
+
+.menu {
+    background-color: #f9ece6;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    align-items: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.icon {
+    align-items: center;
+    width: 15px;
+    height: 15px;
+}
+
+#rosa {
+    display: flex;
+    background-color: #f89cab;
+    align-items: center;
+}
+
+#rosa .texto {
+    align-items: center;
+    padding-left: 60px;
+    color: white;
+
+}
+
+#imgrosa {
+    width: 50%;
+    height: 80%;
+}
+
+.texto button {
+    color: white;
+    background-color: #db4666;
+    height: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+}
+
+
+/* PARTE AZUL - ISA */
 .azul_claro{
     background-color: #7fd7eb;
     border-radius: 15px;
