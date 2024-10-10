@@ -1,0 +1,54 @@
+.menu {
+    background-color: #f9ece6;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    
+}
+
+.icon {
+    align-items: center;
+    width: 15px;
+    height: 15px;
+}
+
+.azul_claro{
+    background-color: #7fd7eb;
+}
+
+#Buy_Now{
+    background-color:#0f9dbd;
+}
+#See_More{
+    background-color: #ffffff;
+}
+#quadrados{
+    display: flex;
+    
+}
+
+.quadrado1{
+ background-color: #eeeeee;
+ padding-right: 10px;
+ 
+
+ 
+}
+
+.quadrado2{
+    background-color: #eeeeee;
+    padding-right: 10px;
+}
+
+.quadrado3{
+    background-color: #eeeeee;
+}
+
+#roxo{
+    background-color: #6a29a6;
+    display: flex;
+}
+

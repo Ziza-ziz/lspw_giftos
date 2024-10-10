@@ -1,0 +1,43 @@
+.azul_claro{
+    background-color: #7fd7eb;
+    border-radius: 15px;
+    display: flex;
+    padding-top: 60px;
+   
+}
+
+.azul_claro img{
+    margin: 30px;
+    margin-bottom: 0;
+   
+}
+
+.texto{
+    color: #ffffff;
+    padding-top: 30px;
+    margin: 20px;
+    
+}
+
+#Buy_Now button{
+    background-color:#0f9dbd; 
+    color: #ffffff;
+    border: none;
+    padding: 15px 34px;
+    margin: 5px;
+    
+
+}
+    
+#See_More button{
+    background-color:#ffffff; 
+    border: none;
+    padding: 15px 32px;
+    margin: 5px;
+}
+
+.botoes{
+    display: flex;
+   
+}
+
