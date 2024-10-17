@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 /* GERAL */
 body {
     margin: 0;
@@ -6,15 +9,18 @@ body {
     font-family: Arial, sans-serif;
     background-color: #ffffff;
     box-sizing: border-box;
-    margin-bottom: 0;
 }
-
 
 
 
 /* PARTE UM (ROSA) */
 #titlepai {
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 38.4px;
+    color: #000000;
 }
 
 .menu {
@@ -23,6 +29,16 @@ body {
     padding-right: 10%;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #101010;
+}
+
+.menu-icon {
+    display: none;
 }
 
 nav {
@@ -60,8 +76,26 @@ a {
 #rosa .texto {
     align-items: center;
     padding-left: 7rem;
+    padding-right: 8rem;
     color: white;
-    width: 50%;
+    width: 45%;
+    justify-content: center;
+}
+
+.texto h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 56px;
+    line-height: 67.2px;
+    color: #fefefe;
+}
+
+.texto p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fefefe;
 }
 
 #imgrosa {
@@ -78,7 +112,12 @@ a {
     padding: 15px 20px;
     border: none;
     border-radius: 5px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
     font-size: 16px;
+    line-height: 24px;
+    color: #fefefe;
 }
 
 #rosa h1 {
@@ -94,10 +133,13 @@ a {
     margin-bottom: 30px;
 }
 
+
 .sla {
-    align-content: flex-end;
-    align-items: flex-end;
+    align-content: end;
+    align-items: end;
+    margin-left: -40rem;
 }
+
 
 .carousel-nav {
     background-color: white;
@@ -105,7 +147,7 @@ a {
     justify-content: center;
     align-items: center;
     padding: 10px 10px;
-    width: 8rem;
+    width: 10rem;
     height: 1rem;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -128,6 +170,51 @@ a {
 
 /* responsividade - tentativa (parte um - rosa) */
 @media screen and (max-width: 768px) {
+    .menu nav {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+        position: absolute;
+        top: 1.5rem;
+        right: 3rem;
+        cursor: pointer;
+    }
+
+    .menu.active nav {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 60px; 
+        right: 0;
+        background-color: #f9ece6;
+        width: 100%;
+        text-align: center;
+        padding: 1em 0;
+    }
+
+    .menu.active nav a {
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .menu.active nav a:last-child {
+        border-bottom: none;
+    }
+
+    #menu_mobile {
+        align-items: center;
+        width: 40px;
+        height: 30px;
+    }
+
+    #titlepai{
+        margin-left: -80%;
+    }
+
+
+    
     #rosa {
         flex-direction: column;
         text-align: center;
@@ -135,12 +222,21 @@ a {
     }
 
     #rosa .texto {
+        width: 85%;
         max-width: 100%;
+    }
+
+    #rosa p {
+        text-align: left;
+        padding-top: 5%;
+        margin-right: 0;
+        margin-bottom: 0;
     }
 
     #imgrosa {
         width: 60%;
         margin: 20px 0;
+        align-items: center;
     }
 
     .carousel-nav img {
@@ -152,45 +248,22 @@ a {
     }
 }
 
-@media screen and (max-width: 480px) {
-    #rosa h1 {
-        font-size: 24px;
-    }
-
-    #rosa p {
-        font-size: 14px;
-    }
-
-    #btnrosa {
-        padding: 10px 20px;
-        font-size: 14px;
-    }
-
-    #imgrosa {
-        width: 80%;
-    }
-
-    .carousel-nav img {
-        width: 30px;
-    }
-
-    #nav-image {
-        width: 80px;
-    }
-}
-
-
 
 
 /* PARTE DOIS (PRODUTOS) */
+
 #ptdois {
     text-align: center;
-    margin-bottom: 5rem;
 }
 
 #ptdois h2 {
-    font-size: 2em;
-    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 38.4px;
+    color: #000000;
+    margin-bottom: 40px;
 }
 
 .linha1, .linha2 {
@@ -261,7 +334,12 @@ a {
     color: black;
     padding: 20px 15px;
     border-radius: 50%;
-    font-size: 0.9em;
+    
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #101010;
 }
 
 button {
@@ -272,7 +350,12 @@ button {
     color: #fff;
     border: none;
     border-radius: 5px;
-    font-size: 1em;
+    
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fefefe;
 }
 
 
@@ -291,6 +374,7 @@ button {
         margin-top: 20px;
     }
 }
+
 
 
 
@@ -556,19 +640,14 @@ input {
 
 
 /* PARTE SETE (TESTIMONIAL) */
-.caixa_testimonial {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-}
-
 .titulo{
     text-align: center;
     font-family: Arial, sans-serif;
-    margin-bottom: 2rem;
 }
 
 
-.rosa {
+.rosa{
+
     font-family: sans-serif;
     background-color: white ;
     border: solid 1px #cbc9c9;
@@ -589,8 +668,8 @@ input {
     right:10px; 
 }
 
-.container_ana {
-    width: 88%;
+.container {
+    width: 80%;
     margin: 0 auto;
     padding: 20px;
     background-color: #f9f9f9;
@@ -611,6 +690,7 @@ input {
     padding: 25px;
     cursor: pointer;
     font-size: 25px;
+    font-size: 20px;
 }
 
 .botao-esquerdo {
@@ -621,17 +701,41 @@ input {
     right: -50px; 
 }
 
-.conteudo_ana {
+.esquerdo {
+    background-color: white;
+    color: white;
+    border: none;
+    width: 0px;
+    margin-left: 45vw;
+    margin-top: 5vw;
+    height: 0px;
+    font-size: 20px;
+   
+}
+
+.direito {
+
+    right: -50px; 
+    background-color: white;
+    color: white;
+    width: 35px;
+    border: none;
+    height: 30px;
+    font-size: 20px;
+    
+}
+
+.conteudo {
     padding: 20px;
     margin-top:-70px;
     font-family: size,sans-serif;
 }
 
-.conteudo h2 {
+h2{
     color: #db4f66;
 }
 
-.conteudo p {
+p {
     color: #000000;
     font-size: 16px;
     line-height: 1.5;
@@ -644,8 +748,54 @@ input {
     margin-top:-20px;
 }
 
-/* responsividade - tentativa (parte sete - testimonial) */
 
+/* responsividade - tentativa (parte sete - testimonial) */
+@media(width <= 768px){
+    .botao-lateral {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: white;
+        color: white;
+        border: none;
+        width: 10px;
+        height: 130px;
+        cursor: pointer;
+        font-size: 25px;
+    }
+    .esquerdo {
+        background-color: #db4f66;
+        color: white;
+        border: none;
+        width: 35px;
+        margin-left: 45vw;
+        margin-top: 5vw;
+        height: 30px;
+        font-size: 20px;
+       
+    }
+    
+    .direito {
+    
+        right: -50px; 
+        background-color: #db4f66;
+        color: white;
+        width: 35px;
+        border: none;
+        height: 30px;
+        font-size: 20px;
+        
+    }
+    .botao-esquerdo {
+        left: -50px;
+
+    }
+    
+    .botao-direito {
+        right: -50px; 
+    }
+    
+}
 
 
 

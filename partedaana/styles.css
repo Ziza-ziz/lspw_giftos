@@ -48,6 +48,7 @@
     padding: 25px;
     cursor: pointer;
     font-size: 25px;
+    font-size: 20px;
 }
 
 .botao-esquerdo {
@@ -56,6 +57,30 @@
 
 .botao-direito {
     right: -50px; 
+}
+
+.esquerdo {
+    background-color: white;
+    color: white;
+    border: none;
+    width: 0px;
+    margin-left: 45vw;
+    margin-top: 5vw;
+    height: 0px;
+    font-size: 20px;
+   
+}
+
+.direito {
+
+    right: -50px; 
+    background-color: white;
+    color: white;
+    width: 35px;
+    border: none;
+    height: 30px;
+    font-size: 20px;
+    
 }
 
 .conteudo {
@@ -79,4 +104,52 @@ p {
     color: #cbc9c9;
     font-size: 14px;
     margin-top:-20px;
+}
+
+
+@media(width <= 768px){
+    .botao-lateral {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: white;
+        color: white;
+        border: none;
+        width: 10px;
+        height: 130px;
+        cursor: pointer;
+        font-size: 25px;
+    }
+    .esquerdo {
+        background-color: #db4f66;
+        color: white;
+        border: none;
+        width: 35px;
+        margin-left: 45vw;
+        margin-top: 5vw;
+        height: 30px;
+        font-size: 20px;
+       
+    }
+    
+    .direito {
+    
+        right: -50px; 
+        background-color: #db4f66;
+        color: white;
+        width: 35px;
+        border: none;
+        height: 30px;
+        font-size: 20px;
+        
+    }
+    .botao-esquerdo {
+        left: -50px;
+
+    }
+    
+    .botao-direito {
+        right: -50px; 
+    }
+    
 }
