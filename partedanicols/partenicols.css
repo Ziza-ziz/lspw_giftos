@@ -21,7 +21,7 @@ body{
 
 .quadrado{
     background-color: #eeeeee;
-    width: 425px;
+    width: 30%;
     height: 250px;
     border-radius: 8px;
     margin: 1px;
@@ -33,7 +33,7 @@ body{
    #caminhao{
     width: 60px;
     height: 65px;
-    padding-left: 11rem;
+    padding-left: 15rem;
     padding-top: 2rem;
  
    }
@@ -44,7 +44,7 @@ body{
    #free{
     width: 60px;
     height: 65px;
-    padding-left: 11rem;
+    padding-left: 15rem;
     padding-top: 2rem;
    }
 
@@ -52,7 +52,7 @@ body{
    #quality{
     width: 60px;
     height: 65px;
-    padding-left: 11rem;
+    padding-left: 15rem;
     padding-top: 2rem;
 
    }
@@ -144,10 +144,11 @@ body{
         flex-direction: column; 
         align-items: flex-start; 
         padding: 10px;
-    
       
-        
-        
+    }
+
+    .texto{
+        margin: 0 auto;
     }
 
     #caminhao, #free, #quality {
@@ -157,6 +158,8 @@ body{
     .botoes {
 
         flex-direction: column; 
+        padding-bottom: 2rem;
+
        
         
     }
