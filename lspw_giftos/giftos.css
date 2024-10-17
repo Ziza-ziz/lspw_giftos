@@ -640,19 +640,14 @@ input {
 
 
 /* PARTE SETE (TESTIMONIAL) */
-.caixa_testimonial {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-}
-
 .titulo{
     text-align: center;
     font-family: Arial, sans-serif;
-    margin-bottom: 2rem;
 }
 
 
-.rosa {
+.rosa{
+
     font-family: sans-serif;
     background-color: white ;
     border: solid 1px #cbc9c9;
@@ -673,8 +668,8 @@ input {
     right:10px; 
 }
 
-.container_ana {
-    width: 88%;
+.container {
+    width: 80%;
     margin: 0 auto;
     padding: 20px;
     background-color: #f9f9f9;
@@ -695,6 +690,7 @@ input {
     padding: 25px;
     cursor: pointer;
     font-size: 25px;
+    font-size: 20px;
 }
 
 .botao-esquerdo {
@@ -705,17 +701,41 @@ input {
     right: -50px; 
 }
 
-.conteudo_ana {
+.esquerdo {
+    background-color: white;
+    color: white;
+    border: none;
+    width: 0px;
+    margin-left: 45vw;
+    margin-top: 5vw;
+    height: 0px;
+    font-size: 20px;
+   
+}
+
+.direito {
+
+    right: -50px; 
+    background-color: white;
+    color: white;
+    width: 35px;
+    border: none;
+    height: 30px;
+    font-size: 20px;
+    
+}
+
+.conteudo {
     padding: 20px;
     margin-top:-70px;
     font-family: size,sans-serif;
 }
 
-.conteudo h2 {
+h2{
     color: #db4f66;
 }
 
-.conteudo p {
+p {
     color: #000000;
     font-size: 16px;
     line-height: 1.5;
@@ -728,8 +748,54 @@ input {
     margin-top:-20px;
 }
 
-/* responsividade - tentativa (parte sete - testimonial) */
 
+/* responsividade - tentativa (parte sete - testimonial) */
+@media(width <= 768px){
+    .botao-lateral {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: white;
+        color: white;
+        border: none;
+        width: 10px;
+        height: 130px;
+        cursor: pointer;
+        font-size: 25px;
+    }
+    .esquerdo {
+        background-color: #db4f66;
+        color: white;
+        border: none;
+        width: 35px;
+        margin-left: 45vw;
+        margin-top: 5vw;
+        height: 30px;
+        font-size: 20px;
+       
+    }
+    
+    .direito {
+    
+        right: -50px; 
+        background-color: #db4f66;
+        color: white;
+        width: 35px;
+        border: none;
+        height: 30px;
+        font-size: 20px;
+        
+    }
+    .botao-esquerdo {
+        left: -50px;
+
+    }
+    
+    .botao-direito {
+        right: -50px; 
+    }
+    
+}
 
 
 
