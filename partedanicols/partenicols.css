@@ -15,47 +15,29 @@ body{
     justify-content: space-between; 
     width: 100%; 
     padding-bottom: 6rem;   
+    
    
 
 }
 
 .quadrado{
     background-color: #eeeeee;
-    width: 30%;
+    width: 450px;
     height: 250px;
     border-radius: 8px;
     margin: 1px;
-    
-    
+    text-align: center; 
 
     
    }
-   #caminhao{
+
+
+   .ajuste-imagem {
     width: 60px;
     height: 65px;
-    padding-left: 15rem;
-    padding-top: 2rem;
- 
-   }
-
-  
-
-
-   #free{
-    width: 60px;
-    height: 65px;
-    padding-left: 15rem;
     padding-top: 2rem;
    }
 
-   
-   #quality{
-    width: 60px;
-    height: 65px;
-    padding-left: 15rem;
-    padding-top: 2rem;
-
-   }
 
    .textoquadrado{
        text-align: center;
@@ -71,7 +53,7 @@ body{
        background-color: #6a29a6;
        display: flex;
        border-radius: 15px;
-     
+    
        
        
 
@@ -88,11 +70,12 @@ body{
    .texto{
     color: #ffffff;
     padding-top: 100px;
-    padding-left: 4rem;
+    padding-left: 5rem;
     font-size: 25px;
     font-family: sans-serif, normal;
 
 }
+
 
 #botao1{
     background-color:#ffffff; 
@@ -112,12 +95,10 @@ body{
     width: 12rem ;
 }
 
-#botoes{
-    display: flex;
-  
-}
 
-@media (max-width: 780px) {
+   
+
+@media (max-width: 768px) {
     #container {
         flex-direction: column; 
         align-items: center; 
@@ -136,31 +117,31 @@ body{
         padding-top: 2rem;
         margin-left: 2rem;
        
-        
+
     }
         
-
     #roxo {
         flex-direction: column; 
         align-items: flex-start; 
         padding: 10px;
-      
     }
 
-    .texto{
-        margin: 0 auto;
+    .texto { 
+        text-align: left; 
+        padding-left: 1rem; 
+        
     }
 
-    #caminhao, #free, #quality {
+    
+    .ajuste-imagem {
         margin: 0 auto 1rem;
     }
 
-    .botoes {
-
-        flex-direction: column; 
+    .botoes{
+        flex-direction: column;
         padding-bottom: 2rem;
-
-       
-        
     }
+
+    
+       
 }
