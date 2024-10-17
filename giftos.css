@@ -556,10 +556,12 @@ body{
    .textoquadrado{
        text-align: center;
        font-family: sans-serif, normal;
-    
-     
+       color: #000000;
    }
 
+   .textoquadrado h2 {
+    color: black;
+   }
    
    
    
@@ -593,6 +595,7 @@ body{
 
 #botao1{
     background-color:#ffffff; 
+    color: #000000;
     border: none;
     padding: 15px 34px;
     margin: 5px;
@@ -601,7 +604,7 @@ body{
 }
     
 #botao2{
-    background-color:#9343de; 
+    background-color: #9343de; 
     color: #ffffff;
     border: none;
     padding: 15px 32px;
